@@ -26,27 +26,28 @@ div, p {
 	height: 45px;
 	width: auto;
 	position: relative;
-	top: 15px;
-	left: 15px;
+	top: 14px;
+	left: 9px;
 }
 
 #searchterm {
 	position: relative;
-	margin-left: 15px;
-	top: -2px;
-	width: 570px;
-	height: 22px;
+	margin-left: 9px;
+	top: -3px;
+	width: 577px;
+	height: 25px;
 	font-size: 1em;
 	padding: 2px;
-	padding-left: 10px;
+	padding-left: 8px;
+	border: 1px solid #D6D6D6;
 }
 
 #micicon {
 	position: relative;
 	height: 20px;
 	width: 20px;
-	top: -5px;
-	margin-left: -23px;
+	top: -6px;
+	margin-left: -22px;
 }
 
 #mainbody {
@@ -81,13 +82,12 @@ div, p {
 	position: relative;
 	background: #0A59F7;
 	border-radius: 0 3px 3px  0;
-	margin-left: -7px;
-	width: 58px;
-	height: 28px;
-	top: 8px;
+	margin-left: -8px;
+	width: 60px;
+	height: 30px;
+	top: 7px;
 	overflow: auto;
 	opacity: 0.7;
-	border: 1px solid blue;
 }
 
 #sicon:hover {
@@ -97,9 +97,9 @@ div, p {
 #glass{
 	border: 2px solid #fff;
 	border-radius: 7px;
-	height: 8px;
-	width: 8px;
-	margin-top: 7px;
+	height: 7px;
+	width: 7px;
+	margin-top: 8px;
 	margin-left: 23px;
 }
 
@@ -116,7 +116,7 @@ div, p {
 
 #name {
 	float: right;
-	margin-top: 15px;
+	margin-top: 16px;
 	margin-right: 23px;
 	font-family: Arial;
 	font-size: .8em;
@@ -127,8 +127,8 @@ div, p {
 	height: 16px;
 	width: 16px;
 	background: #606060;
-	margin-top: 28px;
-	margin-right: 23px;
+	margin-top: 29px;
+	margin-right: 27px;
 	border-radius: 1px;
 }
 
@@ -163,21 +163,21 @@ div, p {
 }
 
 #notifications {
-	height: 21px;
-	width: 21px;
+	height: 20px;
+	width: 20px;
 	border-radius: 10px;
 	background-color: #606060;
 	float: right;
-	margin-right: 23px;
-	margin-top: 25px;
+	margin-right: 26px;
+	margin-top: 27px;
 }
 
 #bell {
 	height: 20px;
 	width: 20px;
 	position: absolute;
-	margin-top: 1px;
-	margin-left: 0px;
+	margin-top: 0px;
+	margin-left: -1px;
 }
 
 #belltop {
@@ -223,13 +223,13 @@ div, p {
 #plus {
 	background-color: white;
 	float: right;
-	margin-right: 23px;
+	margin-right: 20px;
 	height: 14px;
 	width: 14px;
 	border-width: 2px;
 	border-color: #606060;
 	border-style: solid;
-	margin-top: 27px;
+	margin-top: 28px;
 	border-radius: 2px;
 }
 
@@ -268,7 +268,7 @@ div, p {
 	width: 32px;
 	overflow: hidden;
 	border-radius: 20px;
-	margin-top: 20px;
+	margin-top: 21px;
 	margin-right: 40px;
 	float: right;
 }
@@ -294,7 +294,7 @@ div, p {
 	position: relative;
 	width: 600px;
 	height: 30px;
-	margin-left: 125px;
+	margin-left: 119px;
 }
 
 .searchtypes {
@@ -305,15 +305,15 @@ div, p {
 	padding-bottom: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
-	margin-top: 12px;
+	margin-top: 11px;
 	margin-left: 6px;
-	margin-right: 6px;
+	margin-right: 7px;
 	font-family: Arial;
 	font-size: 0.8em;
 	color: #808080;
 }
 
-.searchtypes:active {
+.searchtypes:active{
 	border-bottom: 3px solid red;
 	color: red;
 	font-weight: bold;
