@@ -1,0 +1,38 @@
+/*@import url(http://reset5.googlecode.com/hg/reset.min.css);*/
+
+body {
+	width=100%;
+	display:block;
+}
+
+div {
+	display: inline-block;
+}
+
+#footer {
+   position: relative;
+   top: 25px;
+   height:100px;
+   width:100%;
+   background:#999;
+}
+
+
+#container {
+	width: 1000px;
+	overflow-x: none;
+	overflow-y: hidden;
+	margin-left: 100px;
+}
+
+
+#resultsdiv {
+	float: left;
+	background-color: green;
+	width: 500px;
+}
+
+#adsdiv {
+	width: 250px;
+	margin-left: 100px;
+}
