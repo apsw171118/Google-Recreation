@@ -221,7 +221,7 @@ div, p {
 }
 
 #plus {
-	background-color: white;
+	background-color: #F2F2F2;
 	float: right;
 	margin-right: 20px;
 	height: 14px;
@@ -350,6 +350,33 @@ div, p {
 	height:26px;
 	width: 41px;
 	float: right;
+}
+
+#picon:active, #wicon:active, #settings:active {
+	background: #E0E0E0;
+	border: 1px #E5E5E5 solid;
+
+}
+
+#noggin {
+	position: relative;
+	height: 6px;
+	width: 6px;
+	background: #606060;
+	border-radius: 10px;
+	top: -2px;
+	margin-left: 18px;
+
+}
+
+#bod {
+	background: #606060;
+	position: relative;
+	height: 5px;
+	width: 12px;
+	border-radius: 4px 4px 0 0;
+	top: 5px;
+	margin-left: -13px;
 }
 
 #wicon {
